@@ -10,7 +10,7 @@ for i in range(10):
     #  Do some 'work'
     time.sleep(1)
 
-    output = [i,i+1.1,i+2.5,i+3.4,i+4.9,i+5.7]
+    output = [i, i+1, i+2, i+3, i+4, i+5]
     output = ",".join(str(e) for e in output)
 
     #  Wait for next request from client

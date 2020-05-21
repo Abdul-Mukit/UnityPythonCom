@@ -10,7 +10,7 @@ socket.connect("tcp://localhost:5555")
 #  Do 10 requests, waiting each time for a response
 for request in range(10):
     print("Sending request %s …" % request)
-    socket.send(b"Hello")
+    socket.send(b"Send Pose")
 
     #  Get the reply.
     message = socket.recv()
